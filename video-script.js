@@ -1,8 +1,8 @@
 function createButton() {
     //  create button tags
-    var btn = document.createElement("button");        // Create a <button> element
+    var btn = document.createElement("button");
     //  create title
-    var title = document.createTextNode("mp3");       // Create a text node
+    var title = document.createTextNode("mp3");
     //  add title
     btn.appendChild(title);
     //  adds styles
