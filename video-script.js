@@ -19,7 +19,8 @@ function createButton() {
         //  Create download URL
         var convertURL = 'http://mp3fiber.com/include2/index.php?videoURL=' + videoURL + '&ftype=mp3&quality=320'
         //  Open download link in new tab
-        convertWindow = window.open(convertURL);
+        // convertWindow = window.open(convertURL,"_blank","width=450,height=400,top=200,left=200,replace=false,location=no,menubar=no,titlebar=no,toolbar=no,scrollbars=no,fullscreen=no");
+        convertWindow = window.open(convertURL,"extension_popup","width=450,height=400,top=200,left=200,replace=false,location=no,menubar=no,titlebar=no,toolbar=no,scrollbars=no,fullscreen=no");
     });
 }
 

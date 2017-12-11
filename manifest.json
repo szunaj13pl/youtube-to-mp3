@@ -4,6 +4,7 @@
     "description": "This extension allows the user to convert movie to mp3 in secconds",
     "version": "0.8",
     "browser_action": {
+        "default_popup": "popup.html",
         "default_icon": "icon128.png",
         "128": "icon128.png",
         "96": "icon96.png",
